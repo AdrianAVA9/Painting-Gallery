@@ -11,12 +11,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintingGallery.WebApi", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintingGallery.UI", "PaintingGallery.UI\PaintingGallery.UI.csproj", "{2A2F8C67-F3B4-480C-ABC1-196A3991FAD9}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintingGallery.Dtos", "PaintindGallery.Dtos\PaintingGallery.Dtos.csproj", "{B9886425-2F63-4E89-9A9B-B7F440F68DA6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintingGallery.Constants", "PaintingGallery.Constants\PaintingGallery.Constants.csproj", "{8A89BEC1-847D-4209-96BA-61508881F050}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintingGallery.Util", "PaintingGallery.Util\PaintingGallery.Util.csproj", "{3A01DCC1-C8C8-44E2-A129-D4F61FA1420B}"
 EndProject
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintindGallery.Dtos", "PaintindGallery.Dtos\PaintindGallery.Dtos.csproj", "{B9886425-2F63-4E89-9A9B-B7F440F68DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintingGallery.Constants", "PaintingGallery.Constants\PaintingGallery.Constants.csproj", "{8A89BEC1-847D-4209-96BA-61508881F050}"
+EndProject
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +54,13 @@ Global
 		{8A89BEC1-847D-4209-96BA-61508881F050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A89BEC1-847D-4209-96BA-61508881F050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A89BEC1-847D-4209-96BA-61508881F050}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{3A01DCC1-C8C8-44E2-A129-D4F61FA1420B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A01DCC1-C8C8-44E2-A129-D4F61FA1420B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A01DCC1-C8C8-44E2-A129-D4F61FA1420B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A01DCC1-C8C8-44E2-A129-D4F61FA1420B}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -29,9 +29,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+<<<<<<< HEAD
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
@@ -42,7 +45,10 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+<<<<<<< HEAD
     <Reference Include="System.Web" />
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,23 +57,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="IRepositories\IPatronRepository.cs" />
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
     <Compile Include="Migrations\201808221544060_InitialModel.cs" />
     <Compile Include="Migrations\201808221544060_InitialModel.Designer.cs">
       <DependentUpon>201808221544060_InitialModel.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\201809181908524_InitialModel1.cs" />
     <Compile Include="Migrations\201809181908524_InitialModel1.Designer.cs">
       <DependentUpon>201809181908524_InitialModel1.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PaintingGalleryContext.cs" />
     <Compile Include="Entities\Patron.cs" />
     <Compile Include="EntitiesConfiguration\PatronConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Repositories\PatronRepository.cs" />
     <Compile Include="RepositoryActionResult.cs" />
     <Compile Include="RepositoryActionStatus.cs" />
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -77,6 +92,7 @@
     <EmbeddedResource Include="Migrations\201808221544060_InitialModel.resx">
       <DependentUpon>201808221544060_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201809181908524_InitialModel1.resx">
       <DependentUpon>201809181908524_InitialModel1.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +101,12 @@
     <Folder Include="Upload\Images\Painter\" />
     <Folder Include="Upload\Images\Painting\" />
     <Folder Include="Upload\Images\Patron\" />
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IRepositories\" />
+    <Folder Include="Repositories\" />
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

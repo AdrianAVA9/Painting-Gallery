@@ -11,6 +11,7 @@ namespace PaintingGallery.UI
         public MainWindow()
         {
             InitializeComponent();
+<<<<<<< HEAD
 
             _instance = this;
         }
@@ -34,6 +35,20 @@ namespace PaintingGallery.UI
             _instance.MainPanel.Children.Clear();
 
             _instance.MainPanel.Children.Add(userControl);
+=======
+        }
+
+        private void BtnPatron_Click(object sender, RoutedEventArgs e)
+        {
+            DisplayScreen(new Screens.RegisterPatron());
+        }
+
+        private void DisplayScreen(UserControl userControl)
+        {
+            MainPanel.Children.Clear();
+
+            MainPanel.Children.Add(userControl);
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
         }
     }
 }

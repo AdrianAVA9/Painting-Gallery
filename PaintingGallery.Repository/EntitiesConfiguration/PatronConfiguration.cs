@@ -9,6 +9,7 @@
                 .HasColumnAnnotation("Identification",
                 new System.Data.Entity.Infrastructure.Annotations.IndexAnnotation
                 (
+<<<<<<< HEAD
                     new System.ComponentModel.DataAnnotations.Schema.IndexAttribute("Identification")
                     {
                         IsUnique = true
@@ -22,6 +23,17 @@
             //    .IsRequired()
             //    .HasMaxLength(15);
 
+=======
+                    new[]
+                    {
+                        new System.ComponentModel.DataAnnotations.Schema.IndexAttribute("Identification")
+                        {
+                            IsUnique = true
+                        }
+                    })
+                );
+
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
             Property(p => p.Name)
                 .IsRequired()
                 .HasMaxLength(80);
@@ -39,7 +51,10 @@
 
             Property(p => p.Picture)
                 .IsRequired()
+<<<<<<< HEAD
                 .HasColumnName("PicturePath")
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
                 .HasMaxLength(100);
 
             Property(p => p.Death)

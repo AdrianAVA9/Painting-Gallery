@@ -77,6 +77,7 @@ namespace PaintingGallery.UI.Controls.Information
             return new MessageControl("Successful registration", "The information was registered successfully", MessageType.Success);
         }
 
+<<<<<<< HEAD
         public static MessageControl SuccessfulChanges()
         {
             return new MessageControl("Successful Changes", "The information was edited successfully", MessageType.Success);
@@ -97,6 +98,8 @@ namespace PaintingGallery.UI.Controls.Information
             return new MessageControl("Registration failed", "Please make sure the information is correct", MessageType.Information);
         }
 
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
         public static MessageControl EmptyInput()
         {
             return new MessageControl("Empty inputs", "Please complete the all information", MessageType.Information);
@@ -107,6 +110,7 @@ namespace PaintingGallery.UI.Controls.Information
             return new MessageControl("Ivalid dates", "Please check that dates are older rather than today", MessageType.Information);
         }
 
+<<<<<<< HEAD
         public static MessageControl SuccessfulElimination()
         {
             return new MessageControl("Successful elimination", "The information was successfuly deleted", MessageType.Success);
@@ -115,6 +119,8 @@ namespace PaintingGallery.UI.Controls.Information
         {
             return new MessageControl("Failed Operation", "We had an error when trying to execute the operation", MessageType.Success);
         }
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
         public static MessageControl InvalidDateRange()
         {
             return new MessageControl("Invalid dates", "The dates do not have coherence", MessageType.Information);

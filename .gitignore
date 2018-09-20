@@ -371,5 +371,8 @@ ASALocalRun/
 /PaintingGallery.UI/Screens/RegisterPatron.xaml.cs
 /PaintingGallery.UI/Services/PatronServices.cs
 /PaintingGallery.WebApi/Controllers/PatronsController.cs
+<<<<<<< HEAD
 /PaintingGallery.UI/Controls/Users/DisplayInfo.xaml
 /PaintingGallery.UI/Controls/Users/DisplayInfo.xaml.cs
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0

@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PaintingGallery.UI"
         mc:Ignorable="d"
+<<<<<<< HEAD
         Title="Painting Gallery" Height="600" Width="1118.8" FontFamily="Century Gothic" FontSize="14" Margin="0" 
+=======
+        Title="Painting Gallery" Height="528" Width="1118.8" FontFamily="Century Gothic" FontSize="14" Margin="0" 
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
         WindowStyle="None" AllowsTransparency="True" Background="White" OpacityMask="#FFCB1515" ResizeMode="NoResize" 
         WindowStartupLocation="CenterScreen" Cursor="Arrow" Focusable="False">
     <Window.Resources>
@@ -66,7 +70,11 @@
         </Style>
     </Window.Resources>
     <DockPanel HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="1118.8" LastChildFill="False" UseLayoutRounding="False" Background="#FFFF4342">
+<<<<<<< HEAD
         <DockPanel Height="599" LastChildFill="False" VerticalAlignment="Top" Width="199" Margin="0,0,0,-559" Background="#FF362B2B">
+=======
+        <DockPanel Height="528" LastChildFill="False" VerticalAlignment="Top" Width="199" Margin="0,0,0,-488" Background="#FF362B2B">
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
             <StackPanel Height="528" VerticalAlignment="Top" Width="198">
                 <Label Content="Painting Gallery" Foreground="#FFFF4243" FontSize="20" Padding="22,25,5,25"/>
                 <Button x:Name="BtnPainter" Content="Painter" Height="40" Foreground="#FFFF4243" FontSize="16">
@@ -116,6 +124,10 @@
                 <Border BorderBrush="#FFFF4243" BorderThickness="1" Height="1" Margin="0,0,0,5"/>
             </StackPanel>
         </DockPanel>
+<<<<<<< HEAD
         <DockPanel x:Name="MainPanel" Height="560" LastChildFill="False" VerticalAlignment="Top" Width="919" Margin="0,39,0,-559"/>
+=======
+        <DockPanel x:Name="MainPanel" Height="489" LastChildFill="False" VerticalAlignment="Top" Width="919" Margin="0,39,0,-488"/>
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
     </DockPanel>
 </Window>

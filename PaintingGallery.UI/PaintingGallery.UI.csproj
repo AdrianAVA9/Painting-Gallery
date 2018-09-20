@@ -40,8 +40,11 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
+<<<<<<< HEAD
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -63,27 +66,36 @@
     <Compile Include="Controls\Information\MessageControl.xaml.cs">
       <DependentUpon>MessageControl.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Controls\Users\DisplayInfo.xaml.cs">
       <DependentUpon>DisplayInfo.xaml</DependentUpon>
     </Compile>
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
     <Compile Include="Helper\EmptyTextBoxValidator.cs" />
     <Compile Include="Screens\RegisterPatron.xaml.cs">
       <DependentUpon>RegisterPatron.xaml</DependentUpon>
     </Compile>
     <Compile Include="Helper\PaintingGalleryHttpClient.cs" />
+<<<<<<< HEAD
     <Compile Include="Screens\ShowPatrons.xaml.cs">
       <DependentUpon>ShowPatrons.xaml</DependentUpon>
     </Compile>
     <Compile Include="Services\FileServices.cs" />
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
     <Compile Include="Services\PatronServices.cs" />
     <Page Include="Controls\Information\MessageControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
     <Page Include="Controls\Users\DisplayInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -100,10 +112,13 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
     <Page Include="Screens\ShowPatrons.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -139,27 +154,39 @@
     <Resource Include="Images\Information.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="..\PaintindGallery.Dtos\PaintingGallery.Dtos.csproj">
       <Project>{B9886425-2F63-4E89-9A9B-B7F440F68DA6}</Project>
       <Name>PaintingGallery.Dtos</Name>
+=======
+    <ProjectReference Include="..\PaintindGallery.Dtos\PaintindGallery.Dtos.csproj">
+      <Project>{B9886425-2F63-4E89-9A9B-B7F440F68DA6}</Project>
+      <Name>PaintindGallery.Dtos</Name>
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
     </ProjectReference>
     <ProjectReference Include="..\PaintingGallery.Constants\PaintingGallery.Constants.csproj">
       <Project>{8A89BEC1-847D-4209-96BA-61508881F050}</Project>
       <Name>PaintingGallery.Constants</Name>
     </ProjectReference>
+<<<<<<< HEAD
     <ProjectReference Include="..\PaintingGallery.Util\PaintingGallery.Util.csproj">
       <Project>{3A01DCC1-C8C8-44E2-A129-D4F61FA1420B}</Project>
       <Name>PaintingGallery.Util</Name>
     </ProjectReference>
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <Resource Include="Images\homework-stock.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\default-user-image.png" />
   </ItemGroup>
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

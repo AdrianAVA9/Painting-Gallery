@@ -8,6 +8,7 @@ namespace PaintingGallery.Repository
     {
         public DbSet<Patron> Patrons { get; set; }
 
+<<<<<<< HEAD
         public PaintingGalleryContext(string connetionString) : base(connetionString)
         {
         }
@@ -16,6 +17,8 @@ namespace PaintingGallery.Repository
         {
         }
 
+=======
+>>>>>>> 21ba783075123c3610b1f1dab7f6579cf394c4f0
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new PatronConfiguration());
